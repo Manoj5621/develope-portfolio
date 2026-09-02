@@ -16,6 +16,7 @@ export const greetings: GreetingsType = {
   title: "Hi all, I'm Manoj G",
   description:
     "I'm a passionate Software Engineer and Full Stack Developer who enjoys turning ideas into practical, scalable software solutions. I build modern web applications and backend systems with React.js, Python, and FastAPI, while exploring AI and real-time technologies to solve challenging problems.",
+  resumeLink: "https://drive.google.com/file/d/104ndmPolWvVumoRIFl8nVSDgsaAwGQ6w/view?usp=drive_link",
 };
 
 export const openSource = {
