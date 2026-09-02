@@ -42,9 +42,9 @@ export const skillsSection: SkillsSectionType = {
       title: "Full Stack Development",
       lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
       skills: [
-        emoji("⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"),
-        emoji("⚡ Building responsive static websites using Next.js"),
-        emoji("⚡ Building RESTful APIs in Django & Django REST Framework"),
+        emoji("⚡ Building responsive and scalable web applications "),
+        emoji("⚡ Developing scalable backend services and REST APIs with Python & FastAPI"),
+        emoji("⚡ Containerizing applications and improving deployment workflows with Docker"),
       ],
       softwareSkills: [
         {
@@ -101,33 +101,42 @@ export const SkillBars: SkillBarsType[] = [
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: "University of Central Punjab",
-    subHeader: "Bachelor of Science in Computer Science",
-    duration: "September 2017 - April 2020",
+    schoolName: "East Point College of Higher Education",
+    university: "Bengaluru North University",
+    subHeader: "Master of Computer Applications (MCA)",
+    duration: "December 2023 - December 2025",
     desc: "",
-    grade: "Grade A",
-    descBullets: [], // Array of Strings
+    grade: "7.5 CGPA",
+    descBullets: [],
+  },
+  {
+    schoolName: "NDRK First Grade College, Hassan",
+    university: "University of Mysore",
+    subHeader: "Bachelor of Computer Applications (BCA)",
+    duration: "July 2020 - September 2023",
+    desc: "",
+    grade: "7.0 CGPA",
+    descBullets: [],
   },
 ];
-
 export const experience: ExperienceType[] = [
   {
-    role: "Full Stack Developer",
-    company: "Duseca Software",
-    companyLogo: "/img/icons/common/duseca_software_logo.jpeg",
-    date: "Jan 2022 - Sept 2023",
-    desc: "Crafted robust mobile application backends employing Django, Python, and REST APIs. Leveraged Django REST Framework, PostgreSQL, AWS, Firebase, Stripe, and WebSocket for efficient development. Collaborated across teams to surpass client expectations. Designed intuitive UIs, empowering clients to effortlessly manage their applications with a visually captivating interface.",
+    role: "Full Stack Developer Intern",
+    company: "Excerpt Technologies Pvt Ltd, Bangalore ",
+    companyLogo: "/img/icons/common/EXCERPTLOGO.jpg",
+    date: "AUG 2025 - OCT 2025",
+    desc: "Contributed to full-stack application development by building and enhancing backend features and REST APIs using Python and FastAPI. Worked with MongoDB for data management, while supporting application monitoring, debugging, and performance improvements across multiple modules. Automated deployment workflows using Docker and Bash scripting to improve reliability and reduce manual deployment effort.",
     // descBullets: [
     // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
     // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     // ],
   },
   {
-    role: "Python Developer",
-    company: "Bleed-AI",
-    companyLogo: "/img/icons/common/bleedAI.jpg",
-    date: "Sept 2021 - Oct 2021",
-    desc: "As a Django developer at Bleed AI, I integrated a computer vision AI model to process YouTube URLs on a website. I used Django Channels and Websockets to show real-time processing and implemented threading to run multiple instances of the AI model. I also used jQuery for UI rendering and deployed the website on a Heroku server.",
+    role: "Python Developer Intern",
+    company: "Infotact Solutions, Bangalore",
+    companyLogo: "/img/icons/common/infotact_solutions_logo.jpg",
+    date: "MARCH 2025 - MAY 2025",
+    desc: "Developed Python applications with a focus on clean, maintainable code using object-oriented programming and data structures. Worked on debugging, testing, performance optimization, and automation of recurring development tasks while following software development best practices.",
   },
 ];
 
