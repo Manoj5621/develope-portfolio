@@ -16,7 +16,7 @@ const WhatImDoing = () => {
                 </div>
               </div>
               <div className="pl-4">
-                <h4 className="display-3 text-info">What I'm Doing</h4>
+                <h4 className="display-3 text-info">Technical Expertise</h4>
               </div>
             </div>
             <Row className="g-4">
