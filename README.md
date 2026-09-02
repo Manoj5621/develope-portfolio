@@ -9,7 +9,7 @@
   </kbd>
 </p>
 
-## To view a live example, **[click here](https://developer-portfolio-1hanzla100.vercel.app/)**.
+## To view a live example, **[click here](LINK)**.
 
 Just Edit `portfolio.js` to get your personal portfolio. Feel free to use it as-is or customize it as much as you want.
 
@@ -95,34 +95,12 @@ argument. This would help in keeping emojis compatible across different browsers
 - [react-headroom](https://github.com/KyleAMathews/react-headroom)
 - [color-thief](https://github.com/lokesh/color-thief)
 
-## Illustrations
-
-- [Lottie File Source](https://lottiefiles.com)
-
-## Icons
-
-Iconify Icons are used in the skill section. You can find all the icons here: [Iconify](https://icon-sets.iconify.design/).
-
-## For the Future
-
-If you can help us with these. Please don't hesitate to open a
-[pull request](https://github.com/1hanzla100/developer-portfolio/pulls).
-
-- Enable Dark Mode
-
-- Add More Sections
-
-## Show your support
-
-Give a ⭐️ if this project helped you! You can buy me a coffee if you'd like to support my work further.
-<div>
-  <a href="https://www.buymeacoffee.com/1hanzla100"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=1hanzla100&button_colour=FFDD00&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" /></a>
- </div>
 
 ## Author
 
 👤 **Manoj G**
 
-- Website: https://hanzla.netlify.app
-- Github: [@1hanzla100](https://github.com/1hanzla100)
-- LinkedIn: [@1hanzla100](https://linkedin.com/in/1hanzla100)
+- Website: https://manoj-g-portfolio.onrender.com/
+- Github: [@Manoj5621](https://github.com/Manoj5621)
+- LinkedIn: [@Manoj G](https://www.linkedin.com/in/manoj-g-89a26230b/)
+
