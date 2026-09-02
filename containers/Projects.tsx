@@ -31,7 +31,7 @@ const Projects = () => {
                 <h4 className="display-3 text-info">Projects</h4>
               </div>
             </div>
-            <Row className="row-grid align-items-stretch">
+            <Row className="row-grid align-items-stretch g-4">
               {displayedProjects.map((data, i) => {
                 return <ProjectsCard key={i} {...data} />;
               })}

@@ -2,13 +2,13 @@ import emoji from "react-easy-emoji";
 import {
   EducationType,
   ExperienceType,
-  FeedbackType,
   ProjectType,
   SkillsSectionType,
   SkillBarsType,
   SEODataType,
   SocialLinksType,
   GreetingsType,
+  WhatImDoingType,
 } from "./types/sections";
 
 export const greetings: GreetingsType = {
@@ -25,7 +25,8 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  email: "mailto:hanzla.tauqeer123@gmail.com",
+  email: "manojgopal5621@gmail.com",
+  phone: "91+ 8147290508",
   linkedin: "https://www.linkedin.com/in/manoj-g-89a26230b/",
   github: "https://github.com/Manoj5621",
   instagram: "https://www.instagram.com/?utm_source=pwa_homescreen&__pwa=1",
@@ -260,24 +261,42 @@ export const projects: ProjectType[] = [
   },
 ];
 
-export const feedbacks: FeedbackType[] = [
+export const whatImDoing: WhatImDoingType[] = [
   {
-    name: "Syed Jamal",
-    role: "Frontend Developer at Meganos Software",
-    feedback:
-      "You were a wonderful addition to our team, alhumdulillah. I'm quite impressed with your abilities and professional practices. You approach problems from a unique perspective and always ask the right question. Finding a good teammate like Hanzla is extremely difficult. He has contributed to the growth of our organization and continues to do so. May Allah bless you with everything you desire.",
+    title: "Full-Stack Development",
+    icon: "/img/icons/common/software_development.png",
+    description:
+      "Building modern, responsive web applications and scalable backend services using React.js, Python, FastAPI, and REST APIs.",
   },
   {
-    name: "Wajahat Malek",
-    role: "CEO at Duseca Software",
-    feedback:
-      "Hanzla has a deep understanding of web development technologies and is adept at using them to build scalable, robust, and secure web applications. He has worked on various projects, ranging from small-scale to large-scale, and has shown his ability to work collaboratively with others while maintaining a high level of productivity and quality. Hanzla is a pleasure to work with, and I have no doubt that he will be an asset to any team or organization. I highly recommend Hanzla for any Full Stack Django, React.js, or Blockchain development projects, and I wish him all the best in his future endeavors.",
+    title: "AI & Machine Learning",
+    icon: "/img/icons/common/ai.png",
+    description:
+      "Developing practical AI-powered solutions and intelligent applications using machine learning and modern AI technologies.",
   },
   {
-    name: "Zaid Zaffar",
-    role: "CEO at ZR Technologies",
-    feedback:
-      "Very skilled at what he does and has an in depth knowledge of Django and he's always ready to handle any challenges thrown at him. He's been a valuable member of my team and i look forward to working with him in the years to come",
+    title: "Computer Vision",
+    icon: "/img/icons/common/deep_learning.png",
+    description:
+      "Building real-time computer vision solutions for image and video processing using OpenCV, TensorFlow, and YOLOv8.",
+  },
+  {
+    title: "Backend & API Development",
+    icon: "/img/icons/common/sap.png",
+    description:
+      "Designing reliable backend services and REST APIs with Python and FastAPI, with experience working with MongoDB and MySQL.",
+  },
+  {
+    title: "Web Application Development",
+    icon: "/img/icons/common/web.png",
+    description:
+      "Creating clean and responsive user interfaces with React.js, JavaScript, HTML5, and CSS3.",
+  },
+  {
+    title: "Cloud & Deployment",
+    icon: "/img/icons/common/linux.png",
+    description:
+      "Working with Git, Docker, Bash, and deployment workflows to build reliable and maintainable applications.",
   },
 ];
 

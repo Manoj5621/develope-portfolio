@@ -3,9 +3,10 @@ import Lottie from "react-lottie";
 
 type Props = {
   animationPath: string;
+  className?: string;
 };
 
-const GreetingLottie = ({ animationPath }: Props) => {
+const GreetingLottie = ({ animationPath, className }: Props) => {
   const defaultOptions = {
     loop: true,
     autoplay: true,
@@ -13,7 +14,7 @@ const GreetingLottie = ({ animationPath }: Props) => {
   };
 
   return (
-    <div onClick={() => null}>
+    <div className={className} onClick={() => null}>
       {/* @ts-ignore */}
       <Lottie options={defaultOptions} />
     </div>

@@ -92,3 +92,11 @@ export type FeedbackType = {
   role: string;
   feedback: string;
 };
+
+// * WHAT I'M DOING SECTION
+
+export type WhatImDoingType = {
+  title: string;
+  icon: string;
+  description: string;
+};

@@ -3,6 +3,7 @@ import { greetings } from "../portfolio";
 import { Button, Container, Row, Col } from "reactstrap";
 import GreetingLottie from "../components/DisplayLottie";
 import SocialLinks from "../components/SocialLinks";
+import ContactInfo from "../components/ContactInfo";
 
 const Greetings = () => {
   useEffect(() => {
@@ -23,7 +24,6 @@ const Greetings = () => {
             <span />
             <span />
             <span />
-            <span />
           </div>
           <Container className="py-lg-md d-flex">
             <div className="col px-0">
@@ -31,6 +31,7 @@ const Greetings = () => {
                 <Col lg="6">
                   <h1 className="display-3 text-white">{greetings.title + " "}</h1>
                   <p className="lead text-white">{greetings.description}</p>
+                  <ContactInfo />
                   <SocialLinks />
                   {greetings.resumeLink && (
                     <div className="btn-wrapper my-4">
@@ -48,7 +49,7 @@ const Greetings = () => {
                   )}
                 </Col>
                 <Col lg="6">
-                  <GreetingLottie animationPath="/lottie/coding.json" />
+                  <GreetingLottie animationPath="/lottie/coding.json" className="mt-5" />
                 </Col>
               </Row>
             </div>
