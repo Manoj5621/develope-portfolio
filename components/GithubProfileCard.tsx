@@ -18,7 +18,7 @@ const GithubProfileCard = ({ avatar_url, bio, location }: GithubUserType) => {
               />
             </Col>
             <Col lg="8" className="order-lg-1">
-              <h2 className="text-white">Have an Idea? Let's Build It.</h2>
+              <h2 className="text-white">Have an Idea? Let&apos;s Build It.</h2>
               <p className="lead text-white mt-3">LOOKING FORWARD TO CONNECTING, COLLABORATING, AND BUILDING MEANINGFUL SOFTWARE TOGETHER.</p>
               <p className="text-white mt-3">{bio}</p>
               <div className="my-3 icon-shape bg-gradient-white shadow rounded text-info">

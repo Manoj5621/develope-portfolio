@@ -14,7 +14,7 @@ const Greetings = () => {
   return (
     <main>
       <div className="position-relative">
-        <section className="section section-lg section-shaped pb-250">
+        <section className="section section-shaped pb-5">
           <div className="shape shape-style-1 bg-gradient-info">
             <span />
             <span />
