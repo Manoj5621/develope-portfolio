@@ -112,13 +112,6 @@ export const educationInfo: EducationType[] = [
 
 export const experience: ExperienceType[] = [
   {
-    role: "Django Developer",
-    company: "Meganos Software",
-    companyLogo: "/img/icons/common/meganos.png",
-    date: "Aug 2022 - Present",
-    desc: "I crafted backends for diverse web apps, APIs, and WebSockets in e-commerce, podcasts, and property management. Managed server upkeep, deployments on Linux, Heroku, and AWS S3. Implemented PyTest for automated unit and integration testing, slashing 4 hours of manual testing each sprint, fortifying a dependable and flawless code foundation.",
-  },
-  {
     role: "Full Stack Developer",
     company: "Duseca Software",
     companyLogo: "/img/icons/common/duseca_software_logo.jpeg",
@@ -130,14 +123,7 @@ export const experience: ExperienceType[] = [
     // ],
   },
   {
-    role: "Full Stack Developer",
-    company: "ZRTechnologies",
-    companyLogo: "/img/icons/common/zrtech.jpeg",
-    date: "Aug 2022 - Jun 2023",
-    desc: "Crafting diverse web applications, I've elevated functionality and user engagement. Spearheaded Visual Portfolio, leveraging AI for captivating presentations from parsed text. Proficiently set up and optimized applications on Linux servers, guaranteeing smooth scalability and top-notch performance for seamless user experiences.",
-  },
-  {
-    role: "Backend Developer",
+    role: "Python Developer",
     company: "Bleed-AI",
     companyLogo: "/img/icons/common/bleedAI.jpg",
     date: "Sept 2021 - Oct 2021",
@@ -195,15 +181,15 @@ export const seoData: SEODataType = {
   title: "Manoj G",
   description: greetings.description,
   author: "Manoj G",
-  image: "https://avatars.githubusercontent.com/u/59178380?v=4",
-  url: "https://developer-portfolio-1hanzla100.vercel.app",
+  image: "",  //image of a person or a logo of a company
+  url: "",    // deployed website url
   keywords: [
-    "Hanzla",
+    "Manoj",
     "Manoj G",
-    "@1hanzla100",
-    "1hanzla100",
+    "@Manoj5621",
+    "Manoj G Portfolio",
     "Portfolio",
-    "Hanzla Portfolio ",
+    "Manoj Portfolio ",
     "Manoj G Portfolio",
   ],
 };
