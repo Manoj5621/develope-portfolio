@@ -155,8 +155,8 @@ export const projects: ProjectType[] = [
       "RAG",
     ],
     image: "/img/icons/common/1.png",
-    github: "YOUR_GITHUB_URL",
-    link: "YOUR_LIVE_URL",
+    github: "https://github.com/Manoj5621/CampusBuzz_AI_Event_Clube_portal",
+    // link: "YOUR_LIVE_URL",
   },
 
   {
@@ -171,7 +171,7 @@ export const projects: ProjectType[] = [
     ],
     image: "/img/icons/common/7.jpg",
     github: "https://github.com/Manoj5621/Fashion_virtual",
-    link: "YOUR_LIVE_URL",
+    //link: "YOUR_LIVE_URL",
   },
 
   {
@@ -206,8 +206,8 @@ export const projects: ProjectType[] = [
       "Visual detection overlays",
     ],
     image: "/img/icons/common/6.png",
-    github: "YOUR_GITHUB_URL",
-    link: "YOUR_LIVE_URL",
+    github: "https://github.com/Manoj5621/object-detection",
+    // link: "YOUR_LIVE_URL",
   },
   {
     name: "Cyber Threat Intelligence Dashboard",
@@ -220,8 +220,8 @@ export const projects: ProjectType[] = [
       "Machine Learning",
     ],
     image: "/img/icons/common/2.png",
-    github: "YOUR_GITHUB_URL",
-    link: "YOUR_LIVE_URL",
+    github: "https://github.com/Manoj5621/Cyber-Threat-Intelligence-Dashboard",
+    // link: "YOUR_LIVE_URL",
   },
 
   {
@@ -241,8 +241,8 @@ export const projects: ProjectType[] = [
       "AI-generated travel plans",
     ],
     image: "/img/icons/common/3.png",
-    github: "YOUR_GITHUB_URL",
-    link: "YOUR_LIVE_URL",
+    github: "https://github.com/Manoj5621/AI-Trip-Planner",
+    // link: "YOUR_LIVE_URL",
   },
 
   {
@@ -257,8 +257,8 @@ export const projects: ProjectType[] = [
       "MongoDB",
     ],
     image: "/img/icons/common/4.png",
-    github: "YOUR_GITHUB_URL",
-    link: "YOUR_LIVE_URL",
+    github: "https://github.com/Manoj5621/AI-Coffee-Shop-Assistant",
+    // link: "YOUR_LIVE_URL",
   },
 ];
 
