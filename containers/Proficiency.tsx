@@ -1,7 +1,11 @@
 import React from "react";
 import { SkillBars } from "../portfolio";
 import { Container, Row, Progress, Col } from "reactstrap";
-import GreetingLottie from "../components/DisplayLottie";
+import dynamic from "next/dynamic";
+
+const GreetingLottie = dynamic(() => import("../components/DisplayLottie"), {
+  ssr: false,
+});
 
 const Proficiency = () => {
   return (

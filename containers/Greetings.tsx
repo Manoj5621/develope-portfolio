@@ -1,9 +1,13 @@
 import React, { useEffect } from "react";
 import { greetings } from "../portfolio";
 import { Button, Container, Row, Col } from "reactstrap";
-import GreetingLottie from "../components/DisplayLottie";
+import dynamic from "next/dynamic";
 import SocialLinks from "../components/SocialLinks";
 import ContactInfo from "../components/ContactInfo";
+
+const GreetingLottie = dynamic(() => import("../components/DisplayLottie"), {
+  ssr: false,
+});
 
 const Greetings = () => {
   useEffect(() => {

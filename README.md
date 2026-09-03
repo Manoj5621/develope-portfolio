@@ -50,7 +50,7 @@ $ cd developer-portfolio
 3. Install dependencies
 
 ```bash
-$ yarn
+$ npm install
 ```
 
 4. Edit `portfolio.js`
@@ -58,7 +58,7 @@ $ yarn
 5. Start your development server
 
 ```bash
-$ yarn dev
+$ npm run dev
 ```
 
 ## Linking Portfolio to Github
