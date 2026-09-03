@@ -26,9 +26,6 @@
 These instructions will get you a copy of the project up and running on your local machine for development and testing
 purposes.
 
-You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with
-[npm](http://npmjs.com)) installed on your computer. <br> **For Windows** Install Visual C++ Build Environment:
-[Visual Studio Build Tools](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools)
 
 ```
 node@v10.16.0 or higher
